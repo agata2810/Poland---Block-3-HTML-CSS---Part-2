@@ -86,6 +86,24 @@ body {
 	padding-top:60px;
 	padding-bottom:60px;
 }
+#divResume {
+	width:700px;
+	background:#CC3366;
+	padding-top:60px;
+	padding-bottom:60px;
+}
+#divPortfolio {
+	width:700px;
+	background:#CC3366;
+	padding-top:60px;
+	padding-bottom:60px;
+}
+#divContact {
+	width:700px;
+	background:#CC3366;
+	padding-top:60px;
+	padding-bottom:60px;
+}
 #divContent {
 	width:430px;
 	margin:0 auto;
