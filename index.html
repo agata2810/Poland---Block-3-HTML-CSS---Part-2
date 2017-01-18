@@ -13,41 +13,41 @@ body {
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	background-color: lavenderblush;
 }
-#divWrapper {
+#Wrapper {
 	width:700px;
 	margin:20px auto;
 }
-#divHeader {
+#Header {
 	width:700px;
 	background:url(http://www.readersdigest.ca/wp-content/uploads/2016/05/what-different-flowers-mean.jpg);
 	text-align:center;	
 }
-#divHeader img {
+#Header img {
 	padding-top:20px;
 	padding-bottom:20px;
 }
-#divLine {
+#Line {
 	width:700px;
 	background:#DB7093;
 	height: 1px;
 }
-#divLinks {
+#Links {
 	width:700px;
 	background:#DB7093;	
 }
-#divNav {
+#Nav {
 	width:390px;
 	background:#DB7093;
 	height:36px;
 	margin: 0 auto;
 }
-#divNav ul {
+#Nav ul {
 	list-style-type:none;
 }
-#divNav ul li {
+#Nav ul li {
 	float:left;
 }
-#divNav ul li a {
+#Nav ul li a {
 	display:block;
 	height:20px;
 	line-height:20px;
@@ -61,51 +61,49 @@ body {
 	margin:7px;
 	/*Border Radius*/
 	border-radius:5px;
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;
 	border:1px solid #C338AC;
 	
 	/*Gradients*/
 	background:-moz-linear-gradient(top, #FCE4EC, #EAADEA);
 	background:-webkit-gradient(linear, left top, left bottom, from(#FCE4EC), to(#EAADEA));	
 }
-#divNav ul li a:hover {
+#Nav ul li a:hover {
 	background:#C338AC;
 	background:-moz-linear-gradient(top, #FCE4EC, #EAADEA);
 	background:-webkit-gradient(linear, left top, left bottom, from(#FCE4EC), to(#EAADEA));
 }
-#divNav ul li a.current, #divNav ul li a.current:hover {
+#Nav ul li a.current, #divNav ul li a.current:hover {
 	background:#C338AC;
 	background:-moz-linear-gradient(top,#FCE4EC, #EAADEA);
 	background:-webkit-gradient(linear, left top, left bottom, from(#FCE4EC), to(#EAADEA));
 	color:#6A1B9A;
 	cursor:default;
 }
-#divAbout {
+#About {
 	width:700px;
 	background:#CC3366;
 	padding-top:60px;
 	padding-bottom:60px;
 }
-#divResume {
+#Resume {
 	width:700px;
 	background:#CC3366;
 	padding-top:60px;
 	padding-bottom:60px;
 }
-#divPortfolio {
+#Portfolio {
 	width:700px;
 	background:#CC3366;
 	padding-top:60px;
 	padding-bottom:60px;
 }
-#divContact {
+#Contact {
 	width:700px;
 	background:#CC3366;
 	padding-top:60px;
 	padding-bottom:60px;
 }
-#divContent {
+#Content {
 	width:430px;
 	margin:0 auto;
 	background:#D87AAF;
@@ -115,16 +113,11 @@ body {
 	background:-moz-linear-gradient(top, #FFFFFF, #EAADEA, #FF6EC7);
 	background:-webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#FF6EC7)), color-stop(0.5, #EAADEA);
 	border-radius:15px;
-	-moz-border-radius:15px;
-	-webkit-border-radius:15px;
 	
 	/*Shadows*/
-	box-shadow:1px 1px 4px #000;
-	-moz-box-shadow:1px 1px 4px #000;
-	-webkit-box-shadow:1px 1px 4px #000;	
+	box-shadow:1px 1px 4px #000;	
 }
-
-#divContent img {
+#Content img {
 	float:left;
 	border:1px solid #000;
 	background:#EF99F1;
@@ -136,24 +129,22 @@ body {
 	background:-webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#EAADEA));
 	
 	/*Border Radius*/
-	border-radius:15px;
-	-moz-border-radius:15px;
-	-webkit-border:15px;	
+	border-radius:15px;	
 }
-#divContent h5 {
+#Content h5 {
 	color:#FFF;
 	padding-top:0.8em;
 	padding-bottom:0;
 	padding-left:0;
 	padding-right:0;
 }
-#divContent p {
+#Content p {
 	font-size:0.9em;
 	color:#FFF;
 	padding:0.7em;
 	line-height:1.4em;
 }
-#divFooter {
+#Footer {
 	background:#DB7093;
 	height:20px;
 	width:700px;
@@ -166,11 +157,11 @@ body {
 
 <body>
 
-<div id="divWrapper">
-	<div id="divHeader"><img src="https://s-media-cache-ak0.pinimg.com/236x/2c/e4/e3/2ce4e3afdd17ba63e9f0eff360e8a491.jpg" height="250" width="200"/></div>
-	<div id="divLine"></div>
-	<div id="divLinks">
-		<div id="divNav">
+<div id="Wrapper">
+	<div id="Header"><img src="https://s-media-cache-ak0.pinimg.com/236x/2c/e4/e3/2ce4e3afdd17ba63e9f0eff360e8a491.jpg" height="250" width="200"/></div>
+	<div id="Line"></div>
+	<div id="Links">
+		<div id="Nav">
 			<ul>
 				<li><a href="index.html" class="current">About</a></li>
 				<li><a href="resume.html">Resume</a></li>
@@ -178,13 +169,13 @@ body {
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</div>
-		<div id="divLine"></div>
-		<div id="divAbout">
-			<div id="divContent"><img src="http://sr.photos3.fotosearch.com/bthumb/CSP/CSP748/k7487017.jpg" width="90" height="123"/>
-			<h5>A new language school to be opened </h5>
+		<div id="Line"></div>
+		<div id="About">
+			<div id="Content"><img src="http://sr.photos3.fotosearch.com/bthumb/CSP/CSP748/k7487017.jpg" width="90" height="123"/>
+			<h1>A new language school to be opened </h1>
 			<p>Hi!I am Agata. I am an open-minded person with high motivation and enthusiasm to teach students from all over the world. I speak German and English. In the nearest future I would like to start studying Swedish. If you are looking for a well-educated, experienced teacher, do not hesistate and get in contact with me by sending an e-mail.</p></div>
 		</div>
-		<div id="divFooter"><h5>2017 Agata Zyntek </h5></div>
+		<div id="Footer"><h5>2017 Agata Zyntek </h5></div>
 	</div>
 </div>
 </body>
