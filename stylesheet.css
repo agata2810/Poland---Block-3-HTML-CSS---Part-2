@@ -125,11 +125,11 @@ body {
 	line-height:1.4em;
 }
 #Content ul li a {
-	display:inline-block;
-	height:20px;
+	display:block;
+	height:30px;
 	line-height:20px;
 	background:#f7cadf;
-	width:80px;
+	width:90px;
 	font-size:0.7em;
 	font-weight:bold;
 	color:black;
