@@ -125,8 +125,8 @@ body {
 	line-height:1.4em;
 }
 #Content ul li a {
-	display:block;
-	height:15px;
+	display:inline-block;
+	height:20px;
 	line-height:20px;
 	background:#f7cadf;
 	width:80px;
@@ -138,7 +138,11 @@ body {
 	margin:7px;
 	/*Border Radius*/
 	border-radius:5px;
-	border:1px solid #C338AC;	
+	border:1px solid #C338AC;
+}
+#Content ul {
+	list-style-type:none;
+}
 #Footer {
 	background:#8e2347;
 	height:20px;
