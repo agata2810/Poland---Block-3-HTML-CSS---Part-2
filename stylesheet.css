@@ -111,12 +111,34 @@ body {
 	padding-left:0;
 	padding-right:0;
 }
+#Content h2 {
+	color:#490088;
+	padding-top:0.8em;
+	padding-bottom:0;
+	padding-left:0;
+	padding-right:0;
+}
 #Content p {
 	font-size:0.9em;
 	color:#490088;
 	padding:0.7em;
 	line-height:1.4em;
 }
+#Content ul li a {
+	display:block;
+	height:15px;
+	line-height:20px;
+	background:#f7cadf;
+	width:80px;
+	font-size:0.7em;
+	font-weight:bold;
+	color:black;
+	text-align:center;
+	text-decoration:none;
+	margin:7px;
+	/*Border Radius*/
+	border-radius:5px;
+	border:1px solid #C338AC;	
 #Footer {
 	background:#8e2347;
 	height:20px;
