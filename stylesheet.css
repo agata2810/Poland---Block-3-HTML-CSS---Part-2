@@ -126,9 +126,9 @@ body {
 	line-height:1.4em;
 }
 #Content ul li a {
-	display:block;
+	display:inline-block;
 	height:30px;
-	line-height:20px;
+	line-height:30px;
 	background:#f7cadf;
 	width:90px;
 	font-size:0.7em;
