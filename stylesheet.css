@@ -72,16 +72,19 @@ body {
 	background:#CC3366;
 	padding-top:60px;
 	padding-bottom:60px;
+	border:1px solid black;
 }
 #Portfolio {
 	background:#CC3366;
 	padding-top:60px;
 	padding-bottom:60px;
+	border:1px solid black;
 }
 #Contact {
 	background:#CC3366;
 	padding-top:60px;
 	padding-bottom:60px;
+	border:1px solid black;
 }
 #Content {
 	width:430px;
@@ -127,8 +130,8 @@ body {
 }
 #Content ul li a {
 	display:inline-block;
-	height:30px;
-	line-height:30px;
+	height:40px;
+	line-height:20px;
 	background:#f7cadf;
 	width:90px;
 	font-size:0.7em;
