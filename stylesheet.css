@@ -7,38 +7,38 @@ body {
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	background-color:#ffffff;
 }
-#Wrapper {
+#wrapper {
 	width:700px;
 	margin:20px auto;
 }
-#Header {
+#header {
 	background:url(http://www.readersdigest.ca/wp-content/uploads/2016/05/what-different-flowers-mean.jpg);
 	text-align:center;	
 }
-#Header img {
+#header img {
 	padding-top:20px;
 	padding-bottom:20px;
 }
-#Line {
+#line {
 	background:#8e2347;
 	height: 1px;
 }
-#Links {
+#links {
 	background:#8e2347;	
 }
-#Nav {
+#nav {
 	width:390px;
 	background:#ffffff;
 	height:36px;
 	margin: 0 auto;
 }
-#Nav ul {
+#nav ul {
 	list-style-type:none;
 }
-#Nav ul li {
+#nav ul li {
 	float:left;
 }
-#Nav ul li a {
+#nav ul li a {
 	display:block;
 	height:20px;
 	line-height:20px;
@@ -54,39 +54,39 @@ body {
 	border-radius:5px;
 	border:1px solid #C338AC;
 }
-#Nav ul li a:hover {
+#nav ul li a:hover {
 	background:#eab6cc;
 }
-#Nav ul li a.current, #divNav ul li a.current:hover {
+#nav ul li a.current, #divNav ul li a.current:hover {
 	background:#eab6cc;
 	color:#000;
 	cursor:default;
 }
-#About {
+#about {
 	background:#CC3366;
 	padding-top:60px;
 	padding-bottom:60px;
 	border:1px solid black;
 }
-#Resume {
+#resume {
 	background:#CC3366;
 	padding-top:60px;
 	padding-bottom:60px;
 	border:1px solid black;
 }
-#Portfolio {
+#portfolio {
 	background:#CC3366;
 	padding-top:60px;
 	padding-bottom:60px;
 	border:1px solid black;
 }
-#Contact {
+#contact {
 	background:#CC3366;
 	padding-top:60px;
 	padding-bottom:60px;
 	border:1px solid black;
 }
-#Content {
+#content {
 	width:430px;
 	margin:0 auto;
 	background:#ffffff;
@@ -96,7 +96,7 @@ body {
 	/*Shadows*/
 	box-shadow:1px 1px 4px #000;	
 }
-#Content img {
+#content img {
 	float:left;
 	border:1px solid #000;
 	background:#ffffff;
@@ -108,27 +108,27 @@ body {
 	/*Border Radius*/
 	border-radius:15px;	
 }
-#Content h1 {
+#content h1 {
 	color:#490088;
 	padding-top:0.8em;
 	padding-bottom:0;
 	padding-left:0;
 	padding-right:0;
 }
-#Content h2 {
+#content h2 {
 	color:#490088;
 	padding-top:0.8em;
 	padding-bottom:0;
 	padding-left:0;
 	padding-right:0;
 }
-#Content p {
+#content p {
 	font-size:0.9em;
 	color:#490088;
 	padding:0.7em;
 	line-height:1.4em;
 }
-#Content ul li a {
+#content ul li a {
 	display:inline-block;
 	height:40px;
 	line-height:20px;
@@ -144,10 +144,10 @@ body {
 	border-radius:5px;
 	border:1px solid #C338AC;
 }
-#Content ul {
+#content ul {
 	list-style-type:none;
 }
-#Footer {
+#footer {
 	background:#8e2347;
 	height:20px;
 	width:700px;
